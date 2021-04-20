@@ -1,0 +1,1119 @@
+/*
+Theme Name: REiki
+Description: Theme enfant
+Author: Nina Roethinger
+Author URI:
+Template: twentyseventeen
+Version: 0.1.0
+*/
+
+@media (max-width: 1199.98px) {
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Xanh Mono";
+    src: url("fonts/Xanh_Mono/XanhMono-Italic.ttf") format("Truetype"),
+         url("fonts/Xanh_Mono/XanhMono-Regular.ttf") format("Truetype");
+  
+}
+       
+@font-face {
+    font-family: "Spinwerad";
+    src: url("fonts/Spinwerad/spinwerad.ttf") format("TrueType"),
+    url("fonts/Spinwerad/spinweradC.ttf") format("TrueType");
+    
+}
+       
+@font-face {
+       
+    font-family: "Antic";
+    src: url("fonts/Antic/AnticDidone-Regular.otf") format("OpenType");
+    src: url("fonts/Antic/AnticSans-Regular.otf") format("OpenType");
+    src: url("fonts/Antic/AnticSlab-Regular.otf") format("OpenType");
+       
+}
+
+strong {
+
+    font-family: "Antic", "Time New Roman";
+    
+    }
+    
+ h1,h2,h3,h4,h5,h6 {
+    
+    font-weight: bold;
+    font-family: "Spinwerad", "serif";
+    
+}
+    
+h1 {
+     
+    font-size: 250%;
+    color: #940000;
+
+}
+    
+ h2 {
+    
+    font-size: 200%;
+    text-transform: none;
+    border-bottom: 1px solid black;
+     
+    }
+
+p  {
+    
+   line-height: 20px;
+   text-align: left !important;      
+   font-family: "Antic";
+   
+}
+    
+
+nav  {   
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Spinwerad";
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 10px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+   
+}
+
+button
+{
+    
+    font-size: 80%;
+    text-transform: uppercase;
+    color: #940000;
+    background: transparent;
+    border: 1px solid #940000;
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+    
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+
+}
+
+nav ul li {
+
+    margin: 10px 0 10px 0;
+    text-indent: 10px;
+}
+
+nav ul li a {
+
+    color: #fff;
+    text-decoration: none; 
+    font-size: 55%;
+    transition: all 0.2s ease-in 0s;   
+
+}
+
+
+nav ul li:hover a {
+
+    color: #940000;
+}
+nav img {
+
+    margin: 10px 0 0 0 !important;
+    width: 40px;
+    height: 25px;
+
+}
+
+img {
+    margin-left: 20px !important;
+    width: 300px;
+}
+ 
+#welcome h1 {
+
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 80%;
+}
+
+#welcome h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 40%;
+
+}
+
+#welcome .presentation {
+
+    margin-left: 40px;
+
+} 
+
+#welcome .presentation img {
+
+    margin: 20px 35px !important;
+}
+
+
+#welcome .quote {
+
+    margin: 50px;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    font-size: 120%;
+}
+
+
+#welcome button
+{
+  margin: 50px 85px;
+  width: 200px !important;
+  height: 50px !important;
+  padding: 10px !important;
+
+}
+
+
+
+
+#welcome .lotus {
+
+ margin: 50px 0px 50px 70px !important; 
+ width: 300px;
+ opacity: 0.7;
+
+}
+#a_propos h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 35%;
+
+}
+
+#a_propos img {
+
+  border-radius: 50%;
+  margin-left: 205px;
+  padding: 50px;
+
+
+}
+
+#a_propos h3 {
+    
+
+    width: 100%;
+    font-family: "Antic", "Time New Roman";
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#a_propos p {
+
+    padding: 5px 10px 5px 10px;
+}
+
+#a_propos .quote1 {
+    
+    margin: 10px;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    padding-bottom: 50px;
+  
+
+
+}
+
+
+#a_propos .quote2 {
+
+    margin-top: 50px;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    padding-bottom: 100px;
+    
+
+}
+
+  
+
+
+#CdT  {
+        
+    margin: 0px !important;
+    padding: 20px;
+
+}
+
+
+#prestations h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 43%;
+    
+}
+    
+#prestations h3 {
+    
+    font-size: 200%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #940000;
+        
+}
+
+#prestations img {
+
+    border-radius: 2%;
+    margin-left: 65px !important;
+
+}
+    
+#prestations .rei {
+    
+    width: 20%;
+    
+}
+    
+    
+#prestations .br {
+    
+    width: 75%;
+    
+}
+    
+#prestations .ref {
+    
+    width: 85%;
+   
+}
+   
+#prestations .breuss .content,.refp .content {
+    
+    
+    margin-top: 2px;
+    
+}
+    
+#prestations .content p {
+
+  
+}
+
+    /* REIKI */
+
+.reiki  {
+       
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    padding: 100px 0px 100px 0px;
+    
+}
+        
+    
+    
+    /* BREUSS */ 
+    
+     
+.breuss {
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    padding: 100px 0px 100px 0px;
+   
+} 
+       
+     
+     /* REFP */ 
+       
+.refp {
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    padding: 100px 0px 100px 0px;
+
+}
+    
+    /* TARIFS */ 
+
+#tarifs h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;       
+    width: 22%;
+    
+    }
+
+
+.tarifs .formule {
+    
+    background-color: transparent;
+    border: 1px solid #940000;
+    border-radius: 10px;
+    margin-bottom: 50px !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    width: 89%;
+    transition: all 0.2s ease-in 0s;
+    
+
+}
+
+.tarifs .formule h3 {
+
+    color: #940000;
+    font-size: 150% !important;
+    margin-bottom: 10px !important;
+    margin-top: 0 !important;
+
+}
+
+
+.tarifs .gift_card {
+    
+   
+    background-color: transparent;
+    border: 1px solid #940000;
+    border-radius: 10px;
+    margin-bottom: 50px !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    width: 89%;
+    transition: all 0.2s ease-in 0s;
+    
+
+}
+
+
+
+.tarifs .gift_card h3 {
+
+    color: #940000;
+    font-size: 150% !important;
+    margin-bottom: 20px !important;
+    margin-top: 0 !important;
+
+}
+
+.tarifs_grid {
+
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 40px;
+   margin: 0 auto;
+   width: 95%;
+   text-align: center;
+   padding: 100px 0px 50px 0px;
+}
+
+.tarifs_grid div {
+
+    background-color:  transparent;
+    border: 1px solid #940000;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    height: 200px;
+    width: 400px;
+    transition: all 0.2s ease-in 0s;
+    
+}
+
+
+.tarifs_grid h3 {
+
+   margin-top: 0 !important;
+   font-size: 150% !important;
+   padding: 10px;
+   color: #940000;
+
+}
+
+
+.tarifs_grid h4 {
+
+    padding: 10px;
+ 
+ }
+
+
+
+#contact h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 50%;
+
+ }
+
+ footer
+ {
+ 
+     background-color: #940000;
+     height: 400px;
+     padding: 20px 20px 40px;
+ 
+ 
+ }
+
+ footer ul {
+
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ footer ul li {
+
+    list-style: none;
+    margin-top: 50px;
+    font-family: "Antic";
+    font-size: 120%;
+   
+ }
+
+ footer ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in 0s;
+
+ }
+
+ footer ul li a:hover {
+
+    color: #000;
+
+ }
+ footer h2 {
+
+
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (min-width : 1224px) { 
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+
+     scroll-behavior: smooth;
+     background-image : url("images/poppies2.png");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+
+}
+body
+{
+
+    margin-left: 0px !important;
+    background-color: transparent !important;
+    font-family: "Caviar Dreams","Poppins", sans-serif;
+    font-weight: lighter;
+    transition: all 0.3s ease-in 0s;
+
+
+
+}
+
+p
+{
+
+    font-family: "Antic", "Time New Roman";
+    font-size: 100%;
+    padding: 5px 0px 5px 0;
+    line-height: 20px;
+
+}
+
+strong {
+
+    font-family: "Antic", "Time New Roman";
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+
+    font-weight: bold;
+    font-family: "Spinwerad", "serif";
+
+}
+
+h1 {
+ 
+    font-size: 400%;
+    color: #940000;
+}
+
+h2 {
+
+    font-size: 300%;
+    text-transform: none;
+    border-bottom: 1px solid black;
+ 
+}
+img {
+
+    width: 400px;
+}
+button
+{
+    
+    font-size: 80%;
+    text-transform: uppercase;
+    color: #940000;
+    background: transparent;
+    border: 1px solid #940000;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+    
+}
+
+button:hover
+{
+
+      transform: scale(1.1);
+
+}
+
+@font-face {
+ font-family: "Xanh Mono";
+ src: url("fonts/Xanh_Mono/XanhMono-Italic.ttf") format("Truetype"),
+      url("fonts/Xanh_Mono/XanhMono-Regular.ttf") format("Truetype");
+}
+
+@font-face {
+ font-family: "Spinwerad";
+ src: url("fonts/Spinwerad/spinwerad.ttf") format("TrueType"),
+      url("fonts/Spinwerad/spinweradC.ttf") format("TrueType");
+}
+
+@font-face {
+
+    font-family: "Antic";
+    src: url("fonts/Antic/AnticDidone-Regular.otf") format("OpenType");
+    src: url("fonts/Antic/AnticSans-Regular.otf") format("OpenType");
+    src: url("fonts/Antic/AnticSlab-Regular.otf") format("OpenType");
+
+}
+
+a:hover
+{
+
+    text-decoration: none;
+}
+
+
+section
+{
+
+    padding: 45px 0  50px 0;
+}
+
+
+
+nav
+{   
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Spinwerad";
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 350px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+   
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+
+}
+
+nav ul li {
+
+    margin-top: 20px;
+    text-indent: 20px;
+}
+
+nav ul li a {
+
+    color: #fff;
+    text-decoration: none; 
+    transition: all 0.2s ease-in 0s;   
+
+}
+
+
+nav ul li:hover a {
+
+    color: #940000;
+}
+nav img {
+
+
+    width: 100px;
+
+}
+
+#welcome h1 {
+
+    margin: 0 auto;
+    width: 60%;
+}
+
+#welcome h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 27%;
+
+}
+
+#welcome .quote {
+
+    margin: 0 auto;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    padding: 100px;
+    font-size: 120%;
+    width: 65%;
+}
+
+
+#welcome button
+{
+
+  width: 200px !important;
+  height: 50px !important;
+  padding: 10px !important;
+
+}
+
+
+
+
+#welcome .lotus {
+
+ margin: 50px 0px 50px 250px; 
+ width: 400px;
+ opacity: 0.7;
+
+}
+
+#welcome .presentation {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#welcome .presentation div {
+
+    margin-top: 40px;
+}
+#welcome .presentation button {
+
+    margin: 20px 50px 0 120px;
+    width: 30% !important;
+}
+
+#a_propos h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 25%;
+
+}
+#a_propos img {
+
+  border-radius: 50%;
+  margin-left: 205px;
+  padding: 50px;
+
+
+}
+
+#a_propos h3 {
+    
+    padding: 50px;
+    margin: 0 auto;
+    width: 80%;
+    font-family: "Antic", "Time New Roman";
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#a_propos p {
+
+    padding: 5px 40px 5px 40px;
+}
+
+#a_propos .quote1 {
+
+    margin: 0 auto;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    padding-bottom: 100px;
+    font-size: 120%;
+    width: 50%;
+
+}
+
+
+#a_propos .quote2 {
+
+    margin: 0 auto;
+    font-family: "Xanh Mono";
+    font-style: italic;
+    padding-bottom: 100px;
+    font-size: 120%;
+    width: 75%;
+
+}
+
+
+
+#CdT { 
+    
+    background-color:rgba(255, 255, 255, 0.7);
+    margin: 200px 200px 0px !important;
+    padding: 100px;
+
+}
+
+
+/* REIKI */
+
+
+#prestations h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 30%;
+
+}
+
+#prestations h3 {
+
+    font-size: 200%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #940000;
+    
+
+    
+}
+
+#prestations img {
+
+    border-radius: 2%;
+}
+
+#prestations .rei {
+
+    width: 10%;
+}
+
+
+#prestations .br {
+
+    width: 35%;
+}
+
+#prestations .ref {
+
+    width: 40%;
+}
+#prestations .breuss .content,.refp .content {
+
+
+    margin-top: 40px;
+}
+
+.reiki 
+
+{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 100px 50px 100px 50px;
+}
+    
+
+
+/* BREUSS */ 
+
+ 
+.breuss {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 100px 50px 100px 50px;
+} 
+   
+ 
+ /* REFP */ 
+   
+   .refp {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 100px 50px 100px 50px;
+}
+
+   
+
+#tarifs h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 16%;
+
+}
+/* TARIFS */ 
+
+.tarifs .formule {
+    
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    height: 120px;
+    width: 89%;
+    transition: all 0.2s ease-in 0s;
+    
+
+}
+
+.tarifs .formule h3 {
+
+    font-size: 150% !important;
+    margin-bottom: 10px !important;
+    margin-top: 0 !important;
+
+}
+
+.tarifs .formule:hover {
+
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+}
+
+.tarifs .formule:hover h3 {
+
+    color: #fff !important;
+
+}
+
+.tarifs .gift_card {
+    
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px !important;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    width: 89%;
+    transition: all 0.2s ease-in 0s;
+    
+
+}
+
+.tarifs .gift_card:hover {
+
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+}
+
+.tarifs .gift_card:hover h3 {
+
+    color: #fff !important;
+
+}
+
+.tarifs .gift_card h3 {
+
+    font-size: 150% !important;
+    margin-bottom: 20px !important;
+    margin-top: 0 !important;
+
+}
+
+.tarifs_grid {
+
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 40px;
+   margin: 0 auto;
+   width: 95%;
+   text-align: center;
+   padding: 100px 0px 50px 0px;
+}
+
+.tarifs_grid div {
+
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    height: 150px;
+    width: 400px;
+    transition: all 0.2s ease-in 0s;
+    
+}
+
+.tarifs_grid div:hover {
+
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+
+}
+
+
+
+.tarifs_grid h3 {
+
+   margin-top: 0 !important;
+   font-size: 150% !important;
+   padding: 10px;
+   color: #940000;
+
+}
+
+.tarifs_grid div:hover h3 {
+
+    color: #fff !important;
+
+}
+
+.tarifs_grid h4 {
+
+    padding: 10px;
+ 
+ }
+
+
+ #contact h2 {
+
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 36%;
+
+ }
+
+ footer
+ {
+ 
+     background-color: #940000;
+     height: 400px;
+     padding: 20px 200px 40px;
+ 
+ 
+ }
+
+ footer ul {
+
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ footer ul li {
+
+    list-style: none;
+    margin-top: 50px;
+    font-family: "Antic";
+    font-size: 120%;
+   
+ }
+
+ footer ul li a {
+
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in 0s;
+
+ }
+
+ footer ul li a:hover {
+
+    color: #000;
+
+ }
+ footer h2 {
+
+
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+ }
