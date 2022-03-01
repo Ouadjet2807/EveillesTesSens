@@ -1,0 +1,401 @@
+/*
+Theme Name: Reiki
+Description: Theme enfant
+Author: Nina Roethinger
+Author URI:
+Template: twentyseventeen
+Version: 0.1.0
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+
+h2 {
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    font-weight: 200;
+    color:#bc3737;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1.17em;
+}
+
+
+hr {
+    margin: 20px auto;
+    border: none;
+    background: #bc3737;
+    width: 200px;
+    height: 1px;
+}
+
+
+p {
+    color: rgb(32, 32, 32);
+    font-weight: 300;
+}
+
+body {
+ /*   background: url(./Assets/poppiesD.png) center/cover; */
+      background-attachment: fixed;
+      font-family: "Source sans pro";
+
+}
+
+a.skip-link, a.screen-reader-text, a.post-edit, a.meta-wrapper {
+display: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    background: transparent !important;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    height: 30px;
+    padding: 10px;
+    line-height: 0;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #bc3737;;
+    color: #bc3737;;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid black;
+}
+nav {
+    padding: 20px;
+    margin: 0 auto;
+    background:  linear-gradient(180deg, rgba(31,29,29,1) 0%, rgba(31,29,29,0.9252743333661589) 32%, rgba(31,29,29,0.6899802157191002) 62%, rgba(31,29,29,0) 100%);
+}
+
+nav .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    gap: 24px;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    font-family: "Abril Fatface";
+}
+
+
+nav ul li a {
+    color: #f0d0b8;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    display: inline-block;
+}
+nav ul li a:hover {
+    transform: translateY(10px);
+    color:#ff5959;
+}
+
+nav img {
+    max-width: 50px;
+}
+
+.title {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 0;
+    transition: 1s ease-in-out;
+}
+
+.title h1 {
+    text-align: center;
+    color: #f0d0b8;
+    margin: 160px 0px 27px 0;
+    font-size: 100px;
+    text-shadow: 0px 11px 7px rgb(38 16 10 / 66%);
+    font-weight: 500;
+    font-family: "Playfair Display";
+    transition: 1s ease-in-out;
+}
+
+
+#bloc {
+    position: relative;
+    background: rgba(255, 255, 255, 0.651);
+    margin: 50px auto 0;
+    padding: 385px 80px 80px 80px;
+    width: 1088px;
+    z-index: 1;
+    transform: translateY(550px);
+    transition: 1s ease-in-out;
+}
+
+#bloc .quote {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px;
+    transform: translateX(-200px);
+    transition: 2s ease-in-out;
+
+}
+
+#bloc h3 {
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.quote i {
+    font-size: 30px;
+    color: #686868;
+    
+}
+
+.one {
+    width: 455px ;
+    opacity: 0;
+}
+
+.two {
+    width: 404px ;
+    opacity: 0;
+}
+
+.three {
+    width: 550px ;
+    opacity: 0;
+}
+
+/* VIVA L'ALGERIE */  
+
+#presentation {
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+}
+
+#presentation img, .info-box {
+    margin: 0 auto;
+    opacity: 0;
+    transition: 2s ease-in-out;
+ 
+}
+
+.pic {
+    transform: translateY(150px);
+}
+
+#infoBoxOne, #InfoBoxThree {
+    opacity: 0;
+    transform: translateX(150px);
+    transition: 2s ease-in-out;
+}
+
+#infoBoxTwo {
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: 2s ease-in-out;
+}
+
+#presentation p {
+    max-width: 350px;
+}
+
+
+#a-propos {
+    margin: 200px auto;
+}
+
+#a-propos img {
+    display: block;
+    margin: 80px auto;
+    border-radius: 50%;
+    width: 400px;
+    opacity: 0;
+    transition: 3s ease;
+}
+
+#a-propos p {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+
+#presta hr {
+    margin-bottom: 70px;
+}
+
+#presta .box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px auto;
+    gap: 24px;
+}
+
+#presta .box img, p {
+    align-items: center;
+}
+
+#presta .box p {
+    max-width: 350px;
+    margin: auto;
+}
+
+#presta .image img{
+    width: 350px;
+    margin: 20px auto;
+    display: block;
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+
+#presta .box h3, .box p {
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+.refp {
+    flex-direction: row;
+}
+
+#tarifs .items {
+    margin: 100px auto 150px;
+    width: 460px;
+    height: 721px;
+    background: rgb(179 244 255 / 10%);
+    box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 10;
+    position: relative;
+} 
+
+#tarifs .item {
+    background: #4d4d4d4d;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    line-height: 25px;
+    margin: 10px auto;
+    transition: 0.8s ease-in-out;
+}
+
+#tarifs .item:hover {
+    background: rgba(255, 255, 255, 0.258);
+    color: rgb(20, 20, 20);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#tarifs .item:hover p {
+    color: rgb(20, 20, 20);
+}
+
+#tarifs .item p {
+    color: #fff;
+    transition: 0.8s ease-in-out;
+}
+
+#tarifs .item h3 {
+    color: #bc3737;
+    font-weight: 600;
+}
+#tarifs .glassmorphismImg img {
+    position: absolute;
+    width: 865px;
+    margin: -722px auto;
+}
+
+
+
+  #contact h2 {
+    margin: 0 auto;
+    padding: 50px 0 20px 0px;
+    width: 50%;
+  }
+
+  footer {
+    background-color: #940000;
+    height: 450px;
+    width: 1519px;
+    padding: 20px 20px 40px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  footer ul li {
+    list-style: none;
+    margin-top: 50px;
+    font-family: "Antic";
+    font-size: 120%;
+  }
+
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in 0s;
+  }
+
+  footer ul li a:hover {
+    color: #000;
+  }
+
+  footer li i {
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        text-shadow: 4px 7px 7px rgb(38 16 10 / 39%);
+  }
+  footer h2 {
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+    margin-left: 250px;
+  }
+
+
+

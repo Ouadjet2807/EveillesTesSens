@@ -1,188 +1,185 @@
-<!doctype html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>- Eveilles tes Sens -</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Abril+Fatface&family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="./styles.css">
+    <title>Eveilles tes sens</title>
 </head>
-
 <body>
-    <header>
-       <nav>
-         <ul>
-           <img src="images/lotusr.png">
-           <li><a href="#">Accueil</a></li>
-           <li><a href="#a_propos">À Propos</a></li>
-           <li><a href="#prestations">Prestations</a></li>
-           <li><a href="#tarifs">Tarifs</a></li>
-           <li><a href="#contact">Contact</a></li>
-         </ul>
-       </nav>
-    </header>
+ 
+    <nav>
+        <div class="container">
+            <span>
+                <img src="./assets/lotusr.png" alt="nav brand lotus">
+            </span>
+    
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#presta">Prestation</a></li>
+                <li><a>Tarifs</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+           
+    <div id="title-banner" class="title">
+        <h1 id="bigTitle">Éveilles tes sens</h1>
+    </div>
+
+    <section id="bloc">
+        <div id="quoteOne" class="quote one">
+            <i class="fas fa-quote-left"></i>
+            <h3>Prendre soin de son corps c’est prendre soin de son être</h3>
+        </div>
 
 
-       <section id="CdT">
-        <section id="welcome">
-          <h1>Eveilles tes sens</h1>
-          <img class="lotus" src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2021/04/lotusr.png">
-          <h2>Bienvenue</h2>
-          <!-- <img src="images/tree.jpg"> -->
-          <p class="quote">« Prendre soin de son corps c’est prendre soin de son être »</p>
-          <div class="presentation">
-            <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/reiki-1.png">
-             <div>
-              <p>Le Reiki est l’énergie vitale et universelle qui nous entoure et circule en nous.</p>
-              <p> Elle agît sur les plans physique, émotionnel, mental  et spirituel. Elle apaise et procure une relaxation profonde, une réelle détente ainsi qu’un lâcher prise!</p>
-              <button>En savoir plus</button>
-             </div>
-             <div>
-              <p>Prendre du temps pour soi en s’autorisant une pause douceur, un excellent moment de détente, de lâcher prise …</p>
-              <p>Les plus stressés apprécieront cette impression de voyager sur un petit nuage !</p>
-              <button>En savoir plus</button>
+        <section id="presentation">
+            <img id="reikiPic" class="pic" src="./Assets/reiki.png" alt="">
+            <div id="infoBoxOne"  class="info-box">
+                <p>Le Reiki est l’énergie vitale et universelle qui nous entoure et circule en nous. Elle agît sur les plans physique, émotionnel, mental et spirituel. Elle apaise et procure une relaxation profonde, une réelle détente ainsi qu’un lâcher prise !</p>
+
+                <button class="btn">En savoir plus</button>
             </div>
-            <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/millepertuis-1.png">
-            <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/breuss-1.png">
-            <div>
-              <p>La réflexologie plantaire est une méthode de massage par les pieds très agréable.</p>
-              <p>Elle procure bien-être, relâche les tensions nerveuses et autres blocages énergétiques !</p>
-              <button>En savoir plus</button>
-           </div>
-          </div>
-       </section>
-       <section id="a_propos">
-               <h2>À Propos</h2>
-                   <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/photo1-1.jpg" alt="Joëlle">
-                   <h3 class="quote1">« Quand le bien-être est entré dans ma vie ! »</h3>
-                   <p>Mon parcours dans le bien-être est issu de mon histoire personnelle, un profond mal être intérieur à un tournant de la vie où on se pose beau nombre de questions…souvent sans réponses!</p>                                     
-                   <p>À ce moment-là, je me suis dirigée vers un thérapeute exceptionnel qui après avoir parcouru un « petit bout de chemin » avec lui (Jean-Marie se reconnaîtra!).</p>   
-                   <p>Son soutien, ses conseils, ses enseignements, beaucoup de temps aussi et de travail personnel … il a su me redonner la joie de vivre et me remettre sur la voie du bonheur!</p> 
-                   <p>À l’issue de quoi j’étais tellement admirative du bien-être qu’il m’avait procuré par le biais des soins énergétiques et de son écoute, qu’il me prenait à imaginer à mon tour aider et apaiser les personnes qui comme moi souffrait de mal être.</p>   
-                   <p>Et c’est en 2010, que j’ai fait la connaissance d’une personne qui partageait mon intérêt pour les techniques de soins énergétiques. Au fil de nos échanges sur nos différentes histoires et approches de l’énergétique, nous sommes devenus amis (et là c’est Pat qui se reconnaitra!)</p>   
-                   <p>Il m’a parlé de sa rencontre avec le Reiki puis plus tard du massage de Breuss. Curieuse de découvrir ces techniques, j’ai reçu quelques soins qui m’ont convaincue de l’importance de l’énergétique mais aussi du bien-être que cela apportait.</p> 
-                   <p>C’est en 2012 que je me lance en décidant de me former à mon tour au massage Breuss (pour le bonheur de ma famille sur lesquels j’ai pu pratiquer les enseignements reçus!)</p>    
-                   <p>J’ai ensuite continué à me faisant initier au Reiki par mon ami Pat puis à me former à la Réflexologie Plantaire … formation reçue ensemble avec Pat! Eh oui belle complicité !</p>      
-                   <p>En quête de reconversion professionnelle, il m’est apparu évident de partager ce bien être afin d’en faire profiter les personnes qui ont besoin de se relaxer, de se détendre !</p>
+            <div id="infoBoxTwo" class="info-box">
+                <p>Prendre du temps pour soi en s’autorisant une pause douceur, un excellent moment de détente, de lâcher prise …  Les plus stressés apprécieront cette impression de voyager sur un petit nuage !</p>
 
-                   <h3 class="quote2">« Prends soin de ton corps pour que ton âme ait envie de l’habiter »</h3>
-       </section>
+                <button class="btn">En savoir plus</button>
+            </div>
+            <img  id="breussPic"  class="pic" src="./Assets/breuss.png" alt="">
+            <img  id="refPic" class="pic" src="./Assets/refp.png" alt="">
+            <div  id="infoBoxThree" class="info-box">
+            <p>La réflexologie plantaire est une méthode de massage par les pieds très agréable.  Elle procure bien-être, relâche les tensions nerveuses et autres blocages énergétiques !</p>
 
-       <section id="prestations">
-                   <h2 class="prest">Prestations</h2>
-                    
+            <button class="btn">En savoir plus</button>
+            </div>
 
-                     <!--  Reiki -->
+        </section>
 
-                     <h3 class="rei">Reiki</h3>
-                     <div class="reiki">
-                     <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/aujourdhui-1.jpg">
-                     <div class="content">
-                       <p>Le Reiki est la capacité innée de canaliser l’énergie de guérison à travers les mains.</p>
-                       <p>La transmission du Reiki se fait par l’imposition des mains sur le corps du receveur, une relaxation profonde est ressentie ainsi qu’une sensation de bien-être.</p>
-                       <p>C’est un moyen simple de prendre soin de soi et des autres.</p>
-                       <p>Le Reiki est une méthode de développement de la personnalité à tous les niveaux tant physique, émotionnel, mental et spirituel plus qu’une méthode de guérison dans le sens médical du terme.</p>
-                       <p>Le Reiki stimule les mécanismes d’auto-guérison et peut donc être un bon complément à tout traitement médical.</p>
-                       </div>
-                     </div>
+        <section id="a-propos">
+            <h2>À Propos</h2>
+        <hr>
+            <img id="photoJo" src="./Assets/photo1.jpg" alt="">
+            <div id="quoteTwo" class="quote two">
+                <i class="fas fa-quote-left"></i>
+                <h3>Quand le bien-être est entré dans ma vie !</h3>
+            </div>
 
-                     <!-- Breuss -->
+            <p>Mon parcours dans le bien-être est issu de mon histoire personnelle, un profond mal être intérieur à un tournant de la vie où on se pose beau nombre de questions… souvent sans réponses !
+            À ce moment-là, je me suis dirigée vers un thérapeute exceptionnel qui après avoir parcouru un « petit bout de chemin » avec lui (Jean-Marie se reconnaîtra !).</p></br>
+                
+            <p>Son soutien, ses conseils, ses enseignements, beaucoup de temps aussi et de travail personnel … il a su me redonner la joie de vivre et me remettre sur la voie du bonheur!
+            À l’issue de quoi j’étais tellement admirative du bien-être qu’il m’avait procuré par le biais des soins énergétiques et de son écoute, qu’il me prenait à imaginer à mon tour aider et apaiser les personnes qui comme moi souffrait de mal être.</p>
 
+            <div id="quoteThree" class="quote three">
+                <i class="fas fa-quote-left"></i>
+                <h3>Prends soin de ton corps pour que ton âme ait envie de l’habiter</h3>
+            </div>
 
-                     <h3 class="br">Massage de Breuss</h3>
-                     <div class="breuss">
-                       <div class="content">
-                         <p>Le massage Breuss est bien plus qu’une thérapie pour le dos.
-                         <p>C’est une technique de massage qui corrige tous les problèmes de blocages psychiques et musculaires du corps.</p>
-                         <p>Il régénère la colonne vertébrale et les disques intervertébraux tout en améliorant le fonctionnement de tous les organes et de l’appareil moteur du patient.</p>
-                       </div>
-                       <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/millepertuis-1.png">
-                       <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/breuss-1.png">
-                       <div class="content">
-                         <p>Le masseur utilise toujours de l’huile de millepertuis pour réaliser le massage, un remède reconnu pour ses vertus anti-inflammatoires mais aussi calmantes et relaxante.</p>
-                         <p>Il procure également un bien-être général et il est recommandé aux personnes sujettes au stress.</p>
-                       </div>
-                     </div>
+            <p>Et c’est en 2010, que j’ai fait la connaissance d’une personne qui partageait mon intérêt pour les techniques de soins énergétiques.
+            Au fil de nos échanges sur nos différentes histoires et approches de l’énergétique, nous sommes devenus amis (et là c’est Pat qui se reconnaitra !) Il m’a parlé de sa rencontre avec le Reiki puis plus tard du massage de Breuss.
+            Curieuse de découvrir ces techniques, j’ai reçu quelques soins qui m’ont convaincue de l’importance de l’énergétique mais aussi du bien-être que cela apportait.
+            C’est en 2012 que je me lance en décidant de me former à mon tour au massage Breuss (pour le bonheur de ma famille sur lesquels j’ai pu pratiquer les enseignements reçus ! ).</p></br>
 
-                     <!-- Reflexo -->
+            <p>J’ai ensuite continué à me faisant initier au Reiki par mon ami Pat puis à me former à la Réflexologie Plantaire … formation reçue ensemble avec Pat! Eh oui belle complicité !
+            En quête de reconversion professionnelle, il m’est apparu évident de partager ce bien être afin d’en faire profiter les personnes qui ont besoin de se relaxer, de se détendre !</p>
 
-                     <h3 class="ref">Réflexologie Plantaire</h3>
-                     <div class="refp">
-                       <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/03/family-1.jpg">
-                       <div class="content">
-                          <p>La réflexologie est une approche à la fois douce et profonde, à l’écoute du langage du corps par l’intermédiaire des pieds.</p>
-                          <p>Elle a pour but de stimuler les mécanismes d’auto-guérison pour rétablir et maintenir l’équilibre naturel. La réflexologie plantaire considère l’individu dans sa globalité.</p>
-                          <p>De par son approche énergétique, la réflexologie permet d’aller au-delà des symptômes, à l’origine des troubles.</p>
-                       </div>
-                       <div class="content">
-                         <p>La réflexologie va pouvoir détecter (sans diagnostiquer) ces tensions corporelles pour les libérer en rétablissant la circulation de l’énergie.</p> 
-                         <p>La réflexologie a un effet relaxant immédiat, bénéfique pour la santé.</p> 
-                         <p>En relâchant le stress, elle crée une sensation de calme et de bien-être indispensable à l’équilibre naturel du corps.</p>
-                        </div>
-                       <img src="http://xn--veilles-tes-sens-9pb.fr/wp-content/uploads/2020/07/towel.jpg">
-                     </div>
-                   </section>
+            </section>
 
-                       <!-- Tarifs -->
+        <section id="presta">
+            <h2>Prestations</h2>
+            <hr>
 
 
-                     <section id="tarifs">
-                       <h2>Tarifs</h2>
-                       <div class="tarifs"> 
-                         <div class="tarifs_grid">
-                            <div>
-                              <h3>Reiki</h3>
-                              <h4>Durée de la séance : 60 min</h4>
-                              <h4>Prix : 40€</h4>
-                            </div>
-                            <div>
-                              <h3>Massage de Breuss</h3>
-                              <h4>Durée de la séance : 40 min</h4>
-                              <h4>Prix : 40€</h4>
-                            </div>
-                            <div>
-                              <h3>Réflexologie Plantaire</h3>
-                              <h4>Durée de la séance : 40/45 min</h4>
-                              <h4>Prix : 40€</h4>
-                            </div>
-                            <div>
-                              <h3>Formule découverte</h3>
-                              <h4>3 soins au choix</h4>
-                              <h4>Prix : 100€</h4>
-                            </div>
-                         </div>
-                         <div class="formule">
-                            <h3>Formule découverte</h3>
-                            <p>Afin de vous faire découvrir les différentes prestations que je propose, voici une formule 3 soins que vous pouvez moduler comme le souhaitez.
-                            Soit 3 soins identiques ou 2 Reiki et 1 Breuss, ou 2 Breuss et 1 Réflexo ou 3 soins différents !</p>
-                         </div>
-                         <div class="gift_card">
-                            <h3>Bon cadeau</h3>
-                            <strong>Prix : 40€</strong>
-                            <p>Vous voulez offrir un moment de détente, faire plaisir à vos proches pour un anniversaire, Noël ou toutes autres occasions ? Vous pouvez me contacter pour plus de renseignements</p>
-                            <button>Contactez-moi !</button>
-                        </div>
-                       </div>
-               </section>
+            <div id="r-box" class="Reiki box">
+                <div class="image">
+                    <h3 id="r-MedTitle">Reiki</h3>
+                    <img id="ReikImage" src="./Assets/aujourd'hui.jpg" alt="">
+                </div>
+  
+                <p id="first-Text">Le Reiki est la capacité innée de canaliser l’énergie de guérison à travers les mains.
+                La transmission du Reiki se fait par l’imposition des mains sur le corps du receveur, une relaxation profonde est ressentie ainsi qu’une sensation de bien-être.
+                C’est un moyen simple de prendre soin de soi et des autres.
+                Le Reiki est une méthode de développement de la personnalité à tous les niveaux tant physique, émotionnel, mental et spirituel plus qu’une méthode de guérison dans le sens médical du terme.
+                Le Reiki stimule les mécanismes d’auto-guérison et peut donc être un bon complément à tout traitement médical.</p>
+            </div>
+              
+            <div id="b-box" class="Breuss box">
+                <div class="image 2">
+                    <h3 id="b-MedTitle">Massage de Breuss</h3>
+                    <img id="BreussImage" src="./Assets/millepertuis.jpg" alt="">
+                </div>
+                  
 
+                    <p id="second-Text">Le massage Breuss est bien plus qu’une thérapie pour le dos.
+                    C’est une technique de massage qui corrige tous les problèmes de blocages psychiques et musculaires du corps.
+                    Il régénère la colonne vertébrale et les disques intervertébraux tout en améliorant le fonctionnement de tous les organes et de l’appareil moteur du patient.</br></br>
+                    Le masseur utilise toujours de l’huile de millepertuis pour réaliser le massage, un remède reconnu pour ses vertus anti-inflammatoires mais aussi calmantes et relaxante. Il procure également un bien-être général et il est recommandé aux personnes sujettes au stress.</p>
+            </div>
+
+             
+            <div id="ref-box" class="Refp box">
+                <div class="image 3">
+                    <h3 id="rf-MedTitle">Réflexologie Plantaire</h3>      
+                    <img id="RefImage" src="./Assets/family.jpg" alt="">
+                </div>
+                
+                
+                    <p id="third-Text">La réflexologie est une approche à la fois douce et profonde, à l’écoute du langage du corps par l’intermédiaire des pieds. Elle a pour but de stimuler les mécanismes d’auto-guérison pour rétablir et maintenir l’équilibre naturel.
+                    La réflexologie plantaire considère l’individu dans sa globalité. De par son approche énergétique, la réflexologie permet d’aller au-delà des symptômes, à l’origine des troubles.</br></br>
+                    La réflexologie va pouvoir détecter (sans diagnostiquer) ces tensions corporelles pour les libérer en rétablissant la circulation de l’énergie. La réflexologie a un effet relaxant immédiat, bénéfique pour la santé.
+                    En relâchant le stress, elle crée une sensation de calme et de bien-être indispensable à l’équilibre naturel du corps.</p>
         
-         </section>
+            </div>
 
+        </section>
 
-<footer>
-   <h2>Contact</h2>
-    <ul>
-      <li><a href="tel:+330689459179">06 89 45 91 79</a></li>
-      <li><a href="mailto:joelle.sardara@orange.fr">joelle.sardara@orange.fr</a></li>
-      <li><a href="https://www.google.com/maps/place/13+Rue+Curtil+Buisson,+90200+Rougegoutte/data=!4m2!3m1!1s0x4792308a664c25b9:0xd97f6d887828711f?sa=X&ved=2ahUKEwjKjuzZkt7vAhXchP0HHeQnDDwQ8gEwAHoECAUQAQ">13 Rue du Curtil Buisson - 90200 Rougegoutte</a></li> 
-    </ul>
+        <section id="tarifs">
+            <h2>Tarifs</h2>
+            <hr>
 
-</footer>
+            <div class="items">
+                <div class="item">
+                    <h3>Reiki</h3>
+                    <h4>Durée de la séance : 60 min</h4>
+                    <h4>Prix : 40€</h4>  
+                </div>
+                <div class="item">
+                    <h3>Massage de Breuss</h3>
+                    <h4>Durée de la séance : 40 min</h4>
+                    <h4>Prix : 40€</h4>  
+                </div>
+                <div class="item">
+                    <h3>Réflexologie Plantaire</h3>
+                    <h4>Durée de la séance : 40/45 min</h4>
+                    <h4>Prix : 40€</h4>  
+                </div>
+                <div class="item">
+                    <h3>Formule découverte</h3>
+                    <h4>3 soins au choix</h4>
+                    <h4>Prix : 100€</h4>  
+                </div>
+                <div class="item">
+                    <h3>Bon cadeau</h3>
+                    <h4>Prix : 40€</h4>  
+                    <p>Vous voulez offrir un moment de détente, faire plaisir à vos proches pour un anniversaire, Noël ou toutes autres occasions ? Vous pouvez me contacter pour plus de renseignements</p>
+                  
+                </div>
+            </div>
+            <div class="glassmorphismImg">
+                <img src="./Assets/ban.png" alt="">
+            </div>
+        </section>
+
+    </section>
+
+    <script src="./scripts.js" type="text/javascript"></script>
+
 </body>
-
 </html>
